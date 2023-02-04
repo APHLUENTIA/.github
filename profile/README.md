@@ -8,7 +8,10 @@
 
 ## Documentation  
 - Diagrams and other documentation  
-- [Documentation](https://github.com/APHLUENTIA/Documentation)  
+- [Main](https://github.com/APHLUENTIA/Documentation)
+- [Dev](https://github.com/APHLUENTIA/Documentation/tree/dev)  
+- [Issues](https://github.com/APHLUENTIA/Documentation/issues)  
+
 
 
 ## Services    
