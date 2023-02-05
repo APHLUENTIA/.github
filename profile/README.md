@@ -7,18 +7,30 @@
 
 
 ## Documentation  
-- Diagrams and other documentation  
-- [Main](https://github.com/APHLUENTIA/Documentation)
-- [Dev](https://github.com/APHLUENTIA/Documentation/tree/dev)  
+- Diagrams and other documentation   
+- [Main](https://github.com/APHLUENTIA/Documentation)   
+- [Dev](https://github.com/APHLUENTIA/Documentation/tree/dev)    
 - [Issues](https://github.com/APHLUENTIA/Documentation/issues)  
 
 
 
-## Services    
-- Communication and Server Services  
-- [Services](https://github.com/APHLUENTIA/Services)  
+## CommunicationModule    
+- Broker and Producer API Implementation   
+- [Main](https://github.com/Aphluentia/CommunicationModule)   
+- [Dev](https://github.com/Aphluentia/CommunicationModule/tree/dev)  
+- [Issues](https://github.com/Aphluentia/CommunicationModule/issues)
 
 
-## Application      
-- Code for the Backend and Frontend  
-- [Application](https://github.com/APHLUENTIA/Application)    
+## PlatformModule    
+- Aphluentia++ Web Platform Implementation 
+- [Main](https://github.com/Aphluentia/PlatformModule)   
+- [Dev](https://github.com/Aphluentia/PlatformModule/tree/dev)  
+- [Issues](https://github.com/Aphluentia/PlatformModule/issues)
+
+
+## PlatformModule     
+- MySQL Database and CRUD API Implementation    
+- [Main](https://github.com/Aphluentia/DatabaseModule)   
+- [Dev](https://github.com/Aphluentia/DatabaseModule/tree/dev)   
+- [Issues](https://github.com/Aphluentia/DatabaseModule/issues)   
+
