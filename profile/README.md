@@ -1,36 +1,60 @@
-# Aphluentia++: Supporting Technology Mediated Communication for Aphasia
+# Aphluentia++: Supporting Technology Mediated Communication for Aphasia  
+To setup the project, refer to the Documentation in present below:  
 
+## Documentation  
+- Diagrams and other documentation such as Setup Procedures  
+- [Main](https://github.com/APHLUENTIA/Documentation)   
+- [Dev](https://github.com/APHLUENTIA/Documentation/tree/dev)    
+- [Issues](https://github.com/APHLUENTIA/Documentation/issues)  
 
 ## Notebook   
 - Summary of weekly work for the pre-dissertation course   
 - [Notebook](https://github.com/APHLUENTIA/Noteblock)  
 
-
-## Documentation  
-- Diagrams and other documentation   
-- [Main](https://github.com/APHLUENTIA/Documentation)   
-- [Dev](https://github.com/APHLUENTIA/Documentation/tree/dev)    
-- [Issues](https://github.com/APHLUENTIA/Documentation/issues)  
+## Framework Componenents:  
 
 
-
-## CommunicationModule    
-- Broker and Producer API Implementation   
-- [Main](https://github.com/Aphluentia/CommunicationModule)   
-- [Dev](https://github.com/Aphluentia/CommunicationModule/tree/dev)  
-- [Issues](https://github.com/Aphluentia/CommunicationModule/issues)
+### Database      
+- Repository of the DatabaseAPI   
+- Serves as the interface for seamless interaction with MongoDB. Manages entities such as therapists, patients, applications, and modules. Controllers handle various data operations.  
+- [Main](https://github.com/Aphluentia/Database)   
 
 
-## PlatformModule    
-- Aphluentia++ Web Platform Implementation 
+### KafkaCluster     
+- Repository of the Kafka Cluster as a Task Queue    
+- Contains the Kafka Cluster that connects to the OperationsAPI and Operations Manager   
+- [Main](https://github.com/Aphluentia/KafkaCluster)   
+
+### OperationsAPI     
+- Repository of the OperationsAPI     
+- Creates requests sent to the system for data modification. Interfaces with OperationsManager to orchestrate various operations and validate incoming data.        
+- [Main](https://github.com/Aphluentia/OperationsAPI)   
+
+
+### OperationsManager      
+- Repository of the OperationsManager       
+- Intermediary between the application and Kafka broker. Orchestrates operations, validates data, and ensures secure data processing. Implements multithreading for efficient operation processing.         
+- [Main](https://github.com/Aphluentia/OperationsManager)   
+
+### SecurityManager      
+- Repository of the SecurityManager       
+- Ensures security and efficient session management by working with a Redis database. Responsible for token generation, validation, and handling module snapshots for data integrity.     
+- [Main](https://github.com/Aphluentia/SecurityManager)   
+
+### SystemGateway       
+- Repository of the SystemGatewayAPI         
+- Acts as the gateway for the system, interfacing with DatabaseAPI, OperationsAPI, and SecurityManager. Ensures controlled access to the system's functionalities for optimal performance.    
+- [Main](https://github.com/Aphluentia/SystemGateway)   
+
+
+
+## PlatformModule:     
+- Proof-of-Concept Application Frontend  
 - [Main](https://github.com/Aphluentia/PlatformModule)   
-- [Dev](https://github.com/Aphluentia/PlatformModule/tree/dev)  
-- [Issues](https://github.com/Aphluentia/PlatformModule/issues)
 
 
-## PlatformModule     
-- MySQL Database and CRUD API Implementation    
-- [Main](https://github.com/Aphluentia/DatabaseModule)   
-- [Dev](https://github.com/Aphluentia/DatabaseModule/tree/dev)   
-- [Issues](https://github.com/Aphluentia/DatabaseModule/issues)   
+
+
+
+
 
