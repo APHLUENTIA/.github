@@ -3,13 +3,11 @@ To setup the project, refer to the Documentation in present below:
 
 ## Documentation  
 - Diagrams and other documentation such as Setup Procedures  
-- [Main](https://github.com/APHLUENTIA/Documentation)   
-- [Dev](https://github.com/APHLUENTIA/Documentation/tree/dev)    
-- [Issues](https://github.com/APHLUENTIA/Documentation/issues)  
+- [Main](https://github.com/Aphluentia/Documentation)   
 
 ## Notebook   
 - Summary of weekly work for the pre-dissertation course   
-- [Notebook](https://github.com/APHLUENTIA/Noteblock)  
+- [Notebook](https://github.com/Aphluentia/Noteblock)  
 
 ## Framework Componenents:  
 
