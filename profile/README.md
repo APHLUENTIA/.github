@@ -1,7 +1,7 @@
 # Aphluentia++: Supporting Technology Mediated Communication for Aphasia  
 To setup the project, refer to the Documentation in present below:  
 
-## Documentation  
+## Documentation & Setup Procedures  
 - Diagrams and other documentation such as Setup Procedures  
 - [Main](https://github.com/Aphluentia/Documentation)   
 
